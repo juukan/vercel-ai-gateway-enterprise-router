@@ -3,6 +3,14 @@
   "version": "1.0.0",
   "private": false,
   "description": "Policy-controlled, cost-aware semantic model routing on Vercel AI Gateway.",
+  "homepage": "https://github.com/juukan/vercel-ai-gateway-enterprise-router#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juukan/vercel-ai-gateway-enterprise-router.git"
+  },
+  "bugs": {
+    "url": "https://github.com/juukan/vercel-ai-gateway-enterprise-router/issues"
+  },
   "type": "module",
   "license": "MIT",
   "bin": {

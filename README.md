@@ -75,7 +75,7 @@ Artificial Analysis is evidence, not an automatic truth oracle. Benchmark effort
 Prerequisites: Node.js 20+ and a Vercel account if you want live generation.
 
 ```bash
-git clone <this-repository-url>
+git clone https://github.com/juukan/vercel-ai-gateway-enterprise-router.git
 cd vercel-ai-gateway-enterprise-router
 npm ci --ignore-scripts
 cp .env.example .env.local
