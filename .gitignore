@@ -1,0 +1,29 @@
+# Dependencies and builds
+node_modules/
+.next/
+out/
+coverage/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Temporary and generated capture output
+.tmp/
+captures/
+playtest-runs/
+*.mp4
+*.mov
+*.avi
+*.webm
+
+# Editors and operating systems
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
+

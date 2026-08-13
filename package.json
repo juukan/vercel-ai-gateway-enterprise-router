@@ -1,0 +1,34 @@
+{
+  "name": "vercel-ai-gateway-enterprise-router",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Policy-controlled, cost-aware semantic model routing on Vercel AI Gateway.",
+  "type": "module",
+  "license": "MIT",
+  "bin": {
+    "enterprise-model-router-mcp": "./tools/mcp-server.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "node --test tests/*.test.mjs",
+    "test:security": "node scripts/scan-secrets.mjs",
+    "eval:routing": "node scripts/evaluate-routing.mjs",
+    "costs": "node scripts/cost-scenario.mjs config/org-profile.example.json",
+    "models:check": "node scripts/check-model-pricing.mjs",
+    "mcp": "node tools/mcp-server.mjs"
+  },
+  "dependencies": {
+    "ai": "6.0.244",
+    "next": "16.3.0",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "overrides": {
+    "undici": "6.28.0"
+  }
+}
